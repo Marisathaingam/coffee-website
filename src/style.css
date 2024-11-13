@@ -1,0 +1,96 @@
+*{
+
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family:"Roboto", sans-serif;
+  }
+  
+  body {
+   height: 100%;
+   width: 100%;
+   background:url(../img/barista-profesional-vertiendo-espuma-leche-cafe-cafeteria_23-2148209229.jpg);
+   background-repeat: no-repeat;
+   background-position: center;
+   background-size: cover;
+   height: 100vh;
+   width: 100%;
+   overflow: hidden;
+  }
+  
+  nav{
+     padding: 10px 30px;
+     display: flex;
+     align-items: center;
+     justify-content: space-around;
+     background-color: rgba(177, 130, 36, 0.323);
+     position: relative;
+     height: 60px;
+     max-width: 100%;
+  }
+  .logo {
+    color:#fff;
+    font-size: 25px;
+  }
+  nav ul{
+    display: flex;
+    gap: 30px;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    
+  }
+  
+  nav ul li {
+    list-style-type: none;
+    text-align: center;
+    
+  }
+  
+  nav ul li a {
+     text-decoration: none;
+     text-align: left;
+     color: #fff;
+  }
+  
+  .fit {
+     height: auto;
+     max-width: 100%;
+     display: block;
+  }
+  .menu-icon{
+    display:none;
+  }
+  .menu-icon i {
+    color:#fff;
+    font-size: 30px;
+  }
+  
+ 
+  @media (max-width:600px) {
+
+    nav ul{
+      position: absolute;
+      top:70px;
+      left:0;
+      right: 0;
+      flex-direction: column;
+      text-align: center;
+      background: rgba(161, 113, 51, 0.312);
+      gap: 0;
+      overflow: hidden;
+  
+    }
+    nav ul li {
+      padding: 20px;
+    }
+  
+    .menu-icon {
+      display: block;
+    }
+     body {
+       background-size: cover;
+       background-position: center;
+     } 
+    
+    
+  }
