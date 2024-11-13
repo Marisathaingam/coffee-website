@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Marisa Coffee Website</title>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+    <nav>
+        <div class ="logo">
+          <h1> Marisa Coffee </h1>
+        </div>
+        <ul id="menuList">
+          <li><a href="#">Home</a></li> 
+          <li><a href="#">About Us</a></li>
+          <li><a href="#">Menu</a></li>
+          <li><a href="#">Contact Us</a></li>
+        </ul>
+        <div class="menu-icon">
+          <i class="fa-solid fa-bars" onclick="togleMenu()"></i>
+        </div>
+      </nav>
+
+            <div class="title"> Merry Christmas </div>
+            <p> SPECIAL COFFEE MENU BY ONE GET ONE FREE </p>
+          </div>
+        </div>
+       <script>
+        let menuList = document.getElementById("menuList");
+        menuList.style.maxHeight = "0px"; 
+  
+        function togleMenu() {
+            if (menuList.style.maxHeight === "0px") {
+                menuList.style.maxHeight = "300px"; 
+            } else {
+                menuList.style.maxHeight = "0px"; 
+            }
+        }
+    </script>
+    <script src="./script.js"></script>
+    <script src="https://kit.fontawesome.com/f8e1a90484.js" crossorigin="anonymous"></script>
+  </body>
+  </html>
