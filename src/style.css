@@ -29,7 +29,11 @@ img {
 .section-content {
   margin: 0 auto;
   padding: 0 20px;
-  max-width: 1300px;
+  max-width: 2000px;
+}
+
+.hero-details {
+  width: 100%;
 }
 
 .section-title {
@@ -104,6 +108,7 @@ header .navbar {
   animation: blink 3s infinite;
   text-shadow: 0 0 5px rgb(246, 245, 242);
   margin-bottom: 2rem;
+  width: 150px;
 }
 @keyframes blink{
    0%, 100% {  opacity: 0.2; }
@@ -177,6 +182,21 @@ header .navbar {
   border-radius: 50%;
 }
 
+.hero-details {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+}
+
+.hero-details .hero-details-text {
+  flex: 7; /* 70% width */
+}
+
+.hero-details .hero-image-wrapper {
+  flex: 3; /* 30% width */
+  text-align: right; /* Ensure the image aligns to the right */
+}
 
 /*RESPONSIVE MEDIA QUERY CODE FOR MAX WIDTH 900PX */
 @media screen  and (max-width:900px) {
