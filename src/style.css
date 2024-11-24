@@ -27,9 +27,10 @@ img {
 }
 
 .section-content {
-  margin: 0 auto;
-  padding: 0 20px;
-  max-width: 1300px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
 }
 
 .section-title {
@@ -58,6 +59,7 @@ header .navbar {
   color: #fff;
   font-size: 3rem;
   font-weight: 600;
+  margin-left: 1rem;
 }
 
 .navbar .nav-menu {
@@ -94,7 +96,8 @@ header .navbar {
   min-height: 100vh;
   color: #fff;
   justify-content: space-between;
-
+  gap:30px;
+  margin-left: 1rem;
 
 }
 .hero-section .hero-details .title {
@@ -104,6 +107,8 @@ header .navbar {
   animation: blink 3s infinite;
   text-shadow: 0 0 5px rgb(246, 245, 242);
   margin-bottom: 2rem;
+  margin-left: 1rem;
+  
 }
 @keyframes blink{
    0%, 100% {  opacity: 0.2; }
@@ -114,19 +119,20 @@ header .navbar {
   margin-top: 10;
   max-width: 70%;
   font-weight: 600;
-
+  margin-left: 1rem;
 }
 
 .hero-section .hero-details .description {
   font-size: 1.12rem;
   max-width: 70%;
   margin: 24px 0 40px;
+  margin-left: 1rem;
 }
 
 .hero-section .hero-details .buttons {
   display: flex;
   gap: 23px;
-
+  margin-left: 1rem;
 }
 .hero-section .hero-details .button {
   padding: 10px 26px;
@@ -251,9 +257,13 @@ header .navbar {
   }
   .hero-section .hero-image-wrapper {
     max-width: 270px;
-    margin-right: 0;
+    margin: 0 auto;
+    margin-top: 150px;
   }
-  
-  
+   .hero-section .hero-image-wrapper img {
+     width: 100%;
+     height: auto;
+   }
+ 
   
   }
