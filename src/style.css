@@ -141,7 +141,7 @@ header .navbar {
   font-weight: 500;
   margin-right: 10px;
   border: 2px solid transparent;
-  background: rgba(184, 20, 86, 0.277);
+  background: rgba(161, 68, 105, 0.277);
   transition: 0.3s ease;
 }
 
@@ -242,9 +242,55 @@ header .navbar {
   font-weight: 600;
 }
 
-.menu-section .menu-list .menu-item .text {|
+.menu-section .menu-list .menu-item .text {
   font-size: 1.12rem;
 }
 /* OUREMPLOYEES SECTION STYLING */
 
-.ouremployees-sect
+.ouremployees-section .slider-wrapper {
+  overflow: hidden;
+  margin: 0 60px 50px;
+}
+.ouremployees-section {
+  padding: 50px 0 100px;
+  background: #a1849c6e;
+}
+.ouremployees-section .ouremployees {
+  display: flex;
+  padding: 35px;
+  text-align: center;
+  flex-direction: column;
+  align-items: center;
+}
+.ouremployees-section .ouremployees .user-image {
+  width: 180px;
+  height: 180px;
+  object-fit: cover;
+  border-radius: calc(50%);
+  margin-bottom: 50px;
+}
+.ouremployees-section .ouremployees .name {
+  margin-bottom: 16px;
+  font-size: 1.12rem;
+}
+.ouremployees-section .ouremployees .name .reward {
+  line-height: 25px;
+}
+
+.ouremployees-section .swiper-pagination-bullet {
+  width: 15px;
+  height: 15px;
+  opacity: 1;
+  background: #e1b4d9;
+}
+
+.ouremployees-section .swiper-slide-button {
+  color: #e1b4d9;
+  transition: 0.3s ease;
+  margin-top: -50px;
+}
+
+.ouremployees-section .swiper-slide-button:hover {
+  color: #e1b4d9;
+
+}

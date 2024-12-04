@@ -6,8 +6,12 @@
   <title> Marisa Coffee Website </title>
   <link rel="stylesheet" href="style.css"/>
   <link rel="stylesheet" href="mediaqueries.css">
+
+  <!-- LINKING SWIPER CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
   
-  <!--LING FONT AWESOME FOR ICONS-->
+  <!--LINK FONT AWESOME FOR ICONS-->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
 </head>
     <body>
@@ -139,61 +143,55 @@
        <section class="ouremployees-section">
         <h2 class="section-title"> Our employees </h2>
         <div class="section-content">
-           <div class="slider-container">
+           <div class="slider-container swiper">
             <div class="slider-wrapper">
-              <ul class="ouremployees-list">
-                <li class="ouremployees">
+              <ul class="ouremployees-list swiper-wrapper">
+                <li class="ouremployees swiper-slide">
                   <img src="../img/employees.webp" alt="user" class="user-image">
                    <h3 class="name"> Alex - Sarah </h3>
-                   <i class="reward"> Alex a world champion in latte art,know for his intricate milk foam designs inspired by nature.
-                     His creations perfectly blend artistry with flavor.
-                     Sarah a coffee blending master who won the championship with her perfectly balanced, aromatic blends that reflect 
-                     metiiculous care in every step of the process.
+                   <i class="reward"> Alex, a latte art champion, crafts intricate, nature-inspired foam designs.
+Sarah, a master blender, creates award-winning, perfectly balanced coffee blends.
                    </i>
                 </li>
-                <li class="ouremployees">
+                <li class="ouremployees swiper-slide">
                   <img src="../img/employees1.jpg" alt="user" class="user-image">
                    <h3 class="name"> Hakan - Timur</h3>
-                   <i class="reward"> Hakan a roating expert who the "Roasting Master Championship" for his prcision in unlocking the perfect
-                    flavors and aromas from coffee beans through meticulous roasting.
-                    Timur a creative barista who earned the "Creative Coffee Menu Challenge" title with her innovative blends of
-                    local ingredients and classic coffee flavors,inspiring baristas nationwide.
+                   <i class="reward"> Hakan, a roasting master, earned his title for perfecting coffee bean flavors with precision.
+                    Timur, a creative barista, won acclaim for blending local ingredients with classic coffee in inspiring ways.
                    </i>
                 </li>
-                <li class="ouremployees">
+                <li class="ouremployees swiper-slide">
                   <img src="../img/employees2.jpg" alt="user" class="user-image">
                    <h3 class="name"> Earl- Jamel </h3>
-                   <i class="reward"> Earl a skilled roaster who won for his techinque in unlocking deep flavors from coffee beans perfectly.
-                    Jamel an espresso expert crowned champion for crafting the most intense and balanced brew.
+                   <i class="reward"> Earl, a master roaster, won for his technique in unlocking rich coffee flavors.
+                    Jamel, an espresso expert, earned his title for creating perfectly intense and balanced brews.
                    </i>
                 </li>
-                <li class="ouremployees">
+                <li class="ouremployees swiper-slide">
                   <img src="../img/employees3.webp" alt="user" class="user-image">
                    <h3 class="name"> Martin - Eva </h3>
                    <i class="reward"> Martin an innovator in fusion coffee menus, awarded for his unique and harmonious flavor combinations.
                     Eva a cupping champion renowned for her precise ability to distinguish complex coffee flavors.
                 </li>
-                <li class="ouremployees"> 
+                <li class="ouremployees swiper-slide"> 
                   <img src="../img/employees5.jpg" alt="user" class="user-image">
                    <h3 class="name"> Nora </h3>
-                   <i class="reward"> Nora an artisan bread expert who won the "Artisan Bread Championship"
-                    with her soft,naturally fermented bread made from premium ingredients.
-                   </i>
-                </li>
-                <li class="ouremployees">
-                  <img src="../img/employees4.jpg" alt="user" class="user-image">
-                   <h3 class="name"> Lucas </h3>
-                   <i class="reward"> Lucas a pastry innovator awarded at the "Creative Pastry Awards" for his
-                    beautifully designed and flavorful creating.
+                   <i class="reward"> Nora, an artisan bread expert, won the “Artisan Bread Championship” 
+                    with her soft, naturally fermented loaves crafted from premium ingredients and perfected with care.
                    </i>
                 </li>
               </ul>
+              <div class="swiper-pagination"></div>
+              <div class="swiper-slide-button swiper-button-prev"></div>
+              <div class="swiper-slide-button swiper-button-next"></div>
             </div>
            </div>
         </div>
        </section>
     </main>
-
+    <!--LINKING SWIPER SCRIPT-->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <!--LINKING CUSTOM SCRIPT-->
     <script src="script.js"></script>
   </body>
   </html>

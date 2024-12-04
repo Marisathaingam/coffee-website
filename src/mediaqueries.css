@@ -112,7 +112,7 @@
 }
 }
 
-@media screen and(max-width: 640px) {
+@media screen and (max-width: 640px) {
   .menu-section .menu-list .menu-item {
     width:100%;
 
@@ -120,4 +120,11 @@
  .menu-section .menu-list {
    gap: 50px;
  } 
+ .ouremployees-section .swiper-slide-button {
+   display: none;
+ }
+ .ouremployees-section .slider-wrapper {
+   margin: 0 0 30px;
+ }
 }
+
