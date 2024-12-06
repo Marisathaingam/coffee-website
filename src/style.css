@@ -245,52 +245,86 @@ header .navbar {
 .menu-section .menu-list .menu-item .text {
   font-size: 1.12rem;
 }
-/* OUREMPLOYEES SECTION STYLING */
+/* EMPLOYEES SECTION STYLING */
 
-.ouremployees-section .slider-wrapper {
+.employees-section .slider-wrapper {
   overflow: hidden;
   margin: 0 60px 50px;
 }
-.ouremployees-section {
+
+.employees-section .slider-wrapper {
+  overflow: hidden;
+  margin: 0 60px 50px;
+}
+.employees-section {
   padding: 50px 0 100px;
   background: #a1849c6e;
 }
-.ouremployees-section .ouremployees {
+.employees-section .employees {
   display: flex;
   padding: 35px;
   text-align: center;
   flex-direction: column;
   align-items: center;
 }
-.ouremployees-section .ouremployees .user-image {
+.employees-section .employees .user-image {
   width: 180px;
   height: 180px;
   object-fit: cover;
   border-radius: calc(50%);
   margin-bottom: 50px;
 }
-.ouremployees-section .ouremployees .name {
+.employees-section .employees .name {
   margin-bottom: 16px;
   font-size: 1.12rem;
 }
-.ouremployees-section .ouremployees .name .reward {
+.employees-section .employees .name .reward {
   line-height: 25px;
 }
 
-.ouremployees-section .swiper-pagination-bullet {
+.employees-section .swiper-pagination-bullet {
   width: 15px;
   height: 15px;
   opacity: 1;
   background: #e1b4d9;
 }
 
-.ouremployees-section .swiper-slide-button {
+.employees-section .swiper-slide-button {
   color: #e1b4d9;
   transition: 0.3s ease;
   margin-top: -50px;
 }
 
-.ouremployees-section .swiper-slide-button:hover {
+.employees-section .swiper-slide-button:hover {
   color: #e1b4d9;
 
+}
+
+/* GALLERY SECTION STYLING */
+
+.gallery-section {
+  padding: 50px 0 100px;
+}
+
+.gallery-section .gallery-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 33px;
+}
+
+.gallery-section .gallery-list .gallery-item {
+  width: calc(100% / 3 - 33px);
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.gallery-section .gallery-item .gallery-image {
+  width: 100%;
+  height: 100%;
+  cursor: zoom-in;
+  transition: 0.3s ease;
+}
+
+.gallery-section .gallery-item:hover .gallery-image {
+  transform: scale(1.3);
 }
