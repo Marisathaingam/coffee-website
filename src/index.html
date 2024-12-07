@@ -28,19 +28,19 @@
          <a href="#" class="nav-link"> Home </a>
        </li>
        <li class="nav-item">
-        <a href="#" class="nav-link"> About </a>
+        <a href="#about" class="nav-link"> About </a>
       </li>
       <li class="nav-item">
-        <a href="#" class="nav-link"> Menu </a>
+        <a href="#menu" class="nav-link"> Menu </a>
       </li>
       <li class="nav-item">
-        <a href="#" class="nav-link"> Employees </a>
+        <a href="#employees" class="nav-link"> Employees </a>
       </li>
       <li class="nav-item">
-        <a href="#" class="nav-link"> Gallery </a>
+        <a href="#gallery" class="nav-link"> Gallery </a>
       </li>
       <li class="nav-item">
-        <a href="#" class="nav-link"> Contact </a>
+        <a href="#contact" class="nav-link"> Contact </a>
       </li>
      </ul>
       
@@ -73,7 +73,7 @@
       </section>
       
       <!-- ABOUT SECTION -->
-      <section class="about-section">
+      <section class="about-section"id="about">
         <div class="section-content">
           <div class="about-image-wrapper">
              <img src="../img/barista.webp" alt="About" class="about-image">
@@ -95,7 +95,7 @@
       </section>
 
       <!-- MENU SECTION -->
-       <section class="menu-section">
+       <section class="menu-section"id="menu">
         <h2 class="section-title"> Our Menu </h2>
         <div class="section-content">
          <ul class="menu-list">
@@ -141,7 +141,7 @@
        </section>
 
       <!-- EMPLOYEES SECTION -->
-       <section class="employees-section">
+       <section class="employees-section"id="employees">
         <h2 class="section-title"> Employees </h2>
         <div class="section-content">
            <div class="slider-container swiper">
@@ -190,7 +190,7 @@ Sarah, a master blender, creates award-winning, perfectly balanced coffee blends
         </div>
        </section>
       <!--GALLERY SECTION -->
-    <section class="gallery-section">
+    <section class="gallery-section"id="gallery">
       <h2 class="section-title"> Gallery </h2>
       <div class="section-content">
         <ul class="gallery-list">
@@ -219,7 +219,7 @@ Sarah, a master blender, creates award-winning, perfectly balanced coffee blends
 
 
   <!-- CONTACT SECTION -->
-   <section class="contact-section">
+   <section class="contact-section"id="contact">
      <h2 class="section-title"> Contact Us </h2>
       <div class="section-content" > 
        <ul class="contact-info-list">
@@ -248,8 +248,35 @@ Sarah, a master blender, creates award-winning, perfectly balanced coffee blends
           <p> www.marisaweb.com</p>
         </li>
        </ul>
+
+
+
+       <from action="#" class="contact-from">
+        <input type="text" placeholder="Your name" class= "from-input" required >
+        <input type="email" placeholder="Your email"  class="from-input" required >
+        <textarea placeholder="Your message" class="from-input" required></textarea>
+        <button class="submit-button"> Submit </button>
+       </from>
       </div>
    </section>
+  
+   <!-- FOOTER SECTION -->
+   <footer class="footer-section">
+    <div class="section-content">
+      <p class="copyright-text"> © 2024 Coffee Shop </p>
+
+      <div class="social-link-list">
+        <a href="#" class="social-link"><i class= "fa-brands fa-facebook"></i></a>
+        <a href="#" class="social-link"><i class= "fa-brands fa-instagram"></i></a>
+        <a href="#" class="social-link"><i class= "fa-brands fa-x"></i></a>
+      </div>
+    </div>
+    <p class="policy-text">
+       <a href="#" class="policy-link"> Privacy policy </a>
+       <span class="separater">.</span>
+       <a href="#" class="policy-link"> Refund policy </a>
+    </p>
+   </footer>
     </main>
     <!--LINKING SWIPER SCRIPT-->
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>

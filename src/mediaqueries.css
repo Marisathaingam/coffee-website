@@ -72,7 +72,7 @@
     flex-direction: column-reverse;
     justify-content: center;
 }
-.hero-section .hero-details :is(.subtitle,.description),.about-section .about-details {
+.hero-section .hero-details :is(.subtitle,.description),.about-section .about-details,.contact-section .contact-form {
   max-width: 100%;
 }
 
@@ -110,6 +110,10 @@
 .gallery-section .gallery-list .gallery-item {
   width: calc(100% / 2 - 30px);
 }
+.contact-section .section-content {
+  flex-direction: column-reverse;
+  align-items: center;
+}
 }
 
 /*RESPONSIVE MEDIA QUERY CODE FOR MAX WIDTH 640PX */
@@ -127,6 +131,9 @@
  .employees-section .slider-wrapper {
    margin: 0 0 30px;
  }
-
+.footer-section .section-content {
+  flex-direction: column;
+  gap: 20px;
+}
 }
 
