@@ -8,7 +8,6 @@
   }
 }
 
-
 /*RESPONSIVE MEDIA QUERY CODE FOR MAX WIDTH 900PX */
 @media screen  and (max-width:900px) {
   .navbar .nav-menu {
@@ -19,7 +18,6 @@
     top: 0;
     width: 300px;
     height: 100%;
-    background: #fff;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -93,6 +91,9 @@
   width: 100%;
   height: 100%;
   max-width: 250px;
+
+}
+.img {
   aspect-ratio: 1;
 }
 .menu-section .menu-list .menu-item {
@@ -120,7 +121,6 @@
 @media screen and (max-width: 640px) {
   .menu-section .menu-list .menu-item,.gallery-section .gallery-list .gallery-item {
     width:100%;
-
 }
  .menu-section .menu-list {
    gap: 50px;
@@ -135,5 +135,6 @@
   flex-direction: column;
   gap: 20px;
 }
+
 }
 

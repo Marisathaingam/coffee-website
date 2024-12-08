@@ -1,5 +1,7 @@
+
 const navLinks = document.querySelectorAll (".nav-menu .nav-link");
 const menuCloseButton = document.querySelector ("#menu-close-button");
+const menuOpenButton = document.querySelector ("#menu-open-button");
 const navMenu = document .querySelector(".nav-menu");
 
 menuOpenButton.addEventListener("click", () => {
@@ -13,12 +15,12 @@ menuCloseButton.addEventListener("click", () => menuOpenButton.click ());
 navLinks.forEach(link => {
   link.addEventListener("click",()=> menuOpenButton.click());
 });
-
 //INTIALIZE SWIPER //
 const swiper = new Swiper('.slider-wrapper', {
   loop: true,
   grabCursor: true,
   spaceBetween: 25,
+
 
   // IF WE NEED PAGINATION //
   pagination: {
@@ -47,4 +49,3 @@ const swiper = new Swiper('.slider-wrapper', {
     } 
   }
 });
-   
